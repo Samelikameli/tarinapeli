@@ -1,0 +1,45 @@
+#preview{
+    width: 100%;
+    overflow-y: hidden;
+    position: fixed;
+    margin: 0;
+    left: 0;
+    top: 0;
+}
+.modal-xl{
+    width: 100%;
+}
+.modal{
+    display: block;
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    top: 10%;
+    background-color: white;
+    padding: 1%;
+    border-radius: 1%;
+}
+html,body{
+  height: 100%;
+  margin: 0;
+}
+.modal-title{
+    font-size: 5em;
+}
+.bootbox-close-button{
+    display: none;
+}
+.bootbox-accept{
+    display: none !important;
+}
+.modal-body{
+    font-size: 3em;
+}
+.btn{
+    display: inline-block;
+    margin: 0.1em;
+    font-size: 3em;
+}
+.modal-footer{
+    text-align: center;
+}
